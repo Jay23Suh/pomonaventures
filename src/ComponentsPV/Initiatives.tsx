@@ -1,5 +1,3 @@
-import React from "react";
-
 function Initiatives() {
   return (
     <main className="text-white">

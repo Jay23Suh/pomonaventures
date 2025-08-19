@@ -1,5 +1,3 @@
-import React from 'react';
-
 function Header() {
   return (
     <header className="my-6 text-white-200 ">
