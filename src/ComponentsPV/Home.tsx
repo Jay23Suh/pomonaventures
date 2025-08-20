@@ -20,7 +20,7 @@ function Home() {
                 Support Us
               </a>
               <a
-                href="/apply"
+                href="https://forms.gle/kF1UPSViXLwqrKyE8"
                 className="px-6 py-3 bg-[#2975b3] text-white font-semibold rounded-lg hover:bg-blue-50"
               >
                 Apply
@@ -41,7 +41,7 @@ function Home() {
 
           <div className="grid grid-cols-3 gap-4 p-6">
   <div className="col-span-2 row-span-2">
-    <img src="/PVWhite.png" alt="big gif" className=" rounded-lg" />
+    <img src="/DSC0221.png" alt="big gif" className=" rounded-lg" />
   </div>
   <img src="/IMG_7550.JPG" alt="small 1" className="w-full h-auto rounded-lg" />
   <img src="/IMG_7797.JPG" alt="small 2" className="w-full h-auto rounded-lg" />

@@ -5,7 +5,6 @@ function AboutUs() {
     { name: 'Amber Feng', src: '/photo3.png', linkedin: 'https://www.linkedin.com/in/amber-feng-6a567827b/' },
     { name: 'Terry Wu', src: '/photo4.png', linkedin: 'https://www.linkedin.com/in/terrywu28/' },
     { name: 'Norah Shipley', src: '/photo5.png', linkedin: 'https://www.linkedin.com/in/norah-shipley-3288301b0/' },
-    { name: 'Nyakiriri Kanefu', src: '/photo6.png', linkedin: 'https://www.linkedin.com/in/nyakiriri-kanefu-913279292/' },
      { name: 'Olivia Ma', src: '/photo6.png', linkedin: 'https://www.linkedin.com/in/olivia-kaiyi-ma/' },
     { name: 'Pranav Singhvi', src: '/photo6.png', linkedin: 'https://www.linkedin.com/in/psinghvi05/' }, 
       { name: 'Will Bennett', src: '/photo6.png', linkedin: 'https://www.linkedin.com/in/will-bennett28/' }
@@ -15,7 +14,7 @@ function AboutUs() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Top Paragraph Section */}
         <div className="text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">
+          <h1 className="text-4xl md:text-5xl font-sans font-bold mb-4">
             Who we are: 
           </h1>
             <h1 className="text-4xl md:text-5xl font-bold mb-8">   
