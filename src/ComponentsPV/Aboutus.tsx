@@ -2,12 +2,14 @@ function AboutUs() {
     const teamMembers = [
     { name: 'Jayhyun Suh', src: '/jay.jpg', linkedin: 'https://www.linkedin.com/in/jayhyunsuh/' },
     { name: 'Ochiro Tugsbilguun', src: '/photo2.png', linkedin: 'https://www.linkedin.com/in/ochirgardi-tugsbilguun/' },
-    { name: 'Amber Feng', src: '/photo3.png', linkedin: 'https://www.linkedin.com/in/amber-feng-6a567827b/' },
-    { name: 'Terry Wu', src: '/photo4.png', linkedin: 'https://www.linkedin.com/in/terrywu28/' },
+    { name: 'Amber Feng', src: '/Amber.jpeg', linkedin: 'https://www.linkedin.com/in/amber-feng-6a567827b/' },
+    { name: 'Terry Wu', src: '/Terry.png', linkedin: 'https://www.linkedin.com/in/terrywu28/' },
     { name: 'Norah Shipley', src: '/photo5.png', linkedin: 'https://www.linkedin.com/in/norah-shipley-3288301b0/' },
-     { name: 'Olivia Ma', src: '/photo6.png', linkedin: 'https://www.linkedin.com/in/olivia-kaiyi-ma/' },
+     { name: 'Olivia Ma', src: '/Olivia.jpeg', linkedin: 'https://www.linkedin.com/in/olivia-kaiyi-ma/' },
     { name: 'Pranav Singhvi', src: '/photo6.png', linkedin: 'https://www.linkedin.com/in/psinghvi05/' }, 
-      { name: 'Will Bennett', src: '/photo6.png', linkedin: 'https://www.linkedin.com/in/will-bennett28/' }
+    { name: 'Lateef Wakil', src: '/Lateef.jpg', linkedin: 'https://www.linkedin.com/in/lateef-wakil-250a81282/' },
+      { name: 'Will Bennett', src: '/photo6.png', linkedin: 'https://www.linkedin.com/in/will-bennett28/' },
+    { name: 'Hadley Griffin-Schmidt', src: '/photo6.png', linkedin: 'https://www.linkedin.com/in/hadley-griffin-schmidt/' }  
   ];
   return (
     <main className="text-white">
