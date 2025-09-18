@@ -17,7 +17,7 @@ function AboutUs() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Top Paragraph Section */}
         <div className="text-center">
-          <h1 className="text-4xl md:text-5xl font-sans font-bold mb-4">
+          <h1 className="text-4xl mt-16 md:text-5xl font-sans font-bold mb-4">
             Who we are: 
           </h1>
             <h1 className="text-4xl md:text-5xl font-bold mb-8">   
