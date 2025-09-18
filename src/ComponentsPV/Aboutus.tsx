@@ -1,15 +1,16 @@
 function AboutUs() {
     const teamMembers = [
-    { name: 'Jayhyun Suh', src: '/jay.jpg', linkedin: 'https://www.linkedin.com/in/jayhyunsuh/' },
-    { name: 'Ochiro Tugsbilguun', src: '/photo2.png', linkedin: 'https://www.linkedin.com/in/ochirgardi-tugsbilguun/' },
-    { name: 'Amber Feng', src: '/Amber.jpeg', linkedin: 'https://www.linkedin.com/in/amber-feng-6a567827b/' },
-    { name: 'Terry Wu', src: '/Terry.png', linkedin: 'https://www.linkedin.com/in/terrywu28/' },
-    { name: 'Norah Shipley', src: '/photo5.png', linkedin: 'https://www.linkedin.com/in/norah-shipley-3288301b0/' },
+    { name: 'Jayhyun Suh', src: '/PVLinkedInImages/PV_Jay.jpeg', linkedin: 'https://www.linkedin.com/in/jayhyunsuh/' },
+    { name: 'Ochiro Tugsbilguun', src: '/PVLinkedInImages/PV_Ochiro.jpeg', linkedin: 'https://www.linkedin.com/in/ochirgardi-tugsbilguun/' },
+    { name: 'Norah Shipley', src: '/PVLinkedInImages/PV_Norah.jpeg', linkedin: 'https://www.linkedin.com/in/norah-shipley-3288301b0/' },
+    { name: 'Amber Feng', src: '/PVLinkedInImages/PV_Amber.jpeg', linkedin: 'https://www.linkedin.com/in/amber-feng-6a567827b/' },
+    { name: 'Terry Wu', src: '/PVLinkedInImages/PV_Terry.jpeg', linkedin: 'https://www.linkedin.com/in/terrywu28/' },
+    { name: 'Will Bennett', src: '/PVLinkedInImages/PV_Will.jpeg', linkedin: 'https://www.linkedin.com/in/will-bennett28/' },
+        { name: 'Lateef Wakil', src: '/PVLinkedInImages/PV_Lateef.jpeg', linkedin: 'https://www.linkedin.com/in/lateef-wakil-250a81282/' },
      { name: 'Olivia Ma', src: '/Olivia.jpeg', linkedin: 'https://www.linkedin.com/in/olivia-kaiyi-ma/' },
-    { name: 'Pranav Singhvi', src: '/photo6.png', linkedin: 'https://www.linkedin.com/in/psinghvi05/' }, 
-    { name: 'Lateef Wakil', src: '/Lateef.jpg', linkedin: 'https://www.linkedin.com/in/lateef-wakil-250a81282/' },
-      { name: 'Will Bennett', src: '/photo6.png', linkedin: 'https://www.linkedin.com/in/will-bennett28/' },
-    { name: 'Hadley Griffin-Schmidt', src: '/photo6.png', linkedin: 'https://www.linkedin.com/in/hadley-griffin-schmidt/' }  
+    { name: 'Pranav Singhvi', src: '/PVLinkedInImages/PV_Pranav.jpeg', linkedin: 'https://www.linkedin.com/in/psinghvi05/' }, 
+    { name: 'Hadley Griffin-Schmidt', src: '/PVLinkedInImages/PV_Hadley.jpeg', linkedin: 'https://www.linkedin.com/in/hadley-griffin-schmidt/' },
+     { name: 'Jack Christy', src: '/Terr.png', linkedin: 'https://www.linkedin.com/in/terrywu28/' }
   ];
   return (
     <main className="text-white">
