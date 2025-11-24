@@ -17,7 +17,7 @@ function Initiatives() {
           <div className="md:w-1/2">
               <img src="/ST2.png" alt="small 1" className="w-96 mb-2 h-auto rounded-lg" />
             <p className="text-lg text-gray-200 leading-relaxed">
-              Sparkathon is a one-of-a-kind design-thinking challenge which enables students to solve some of the world's most pressing challenges. Winners are awarded with cash prizes, exclusive access to recruiters, and an opportunity to implement their solutions in a target country. At its peak, the event scaled to 5+ cities! 
+             Our flagship event, SageTank, provides a platform for students across the 5Cs to pitch their innovative ideas to a panel of experienced judges, including alumni, faculty, and industry leaders. Participants receive invaluable feedback, mentorship, and the chance to win seed funding to help bring their entrepreneurial visions to life. It's more than a competition; it's a launchpad for our own founders.
           </p>
           </div>
 
@@ -37,9 +37,14 @@ function Initiatives() {
                     <div className="md:w-1/2">
               <h1 className="text-6xl text-bold text-center my-8"> Sparkathon </h1>
             <p className="text-lg text-gray-200 leading-relaxed">
-              Our flagship event, SageTank, provides a platform for students across the 5Cs to pitch their innovative ideas to a panel of experienced judges, including alumni, faculty, and industry leaders. Participants receive invaluable feedback, mentorship, and the chance to win seed funding to help bring their entrepreneurial visions to life. It's more than a competition; it's a launchpad for our own founders.
+            
+              Sparkathon is a one-of-a-kind design-thinking challenge which enables students to solve some of the world's most pressing challenges. Winners are awarded with cash prizes, exclusive access to recruiters, and an opportunity to implement their solutions in a target country. At its peak, the event scaled to 5+ cities! 
+              
             </p>
-          </div>
+
+            <p className="text-lg text-gray-200 leading-relaxed">
+              You can learn more about the event by clicking  
+              <a href="https://www.sparkathon.org/" className="hover:underline text-blue-300 hover:text-blue-400"> here</a>.</p></div>
 
         </section>
       </div>

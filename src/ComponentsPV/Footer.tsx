@@ -34,14 +34,10 @@ const Footer: React.FC = () => {
         <div>
           <h4 className="text-white font-semibold mb-4">Connect</h4>
           <p className="text-sm">Email: pomonaventures@gmail.com</p>
-          <p className="text-sm">
-  Instagram: <a href="https://instagram.com/pomonaventures" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
-    @pomonaventures
-  </a>
-    LinkedIn: <a href="https://www.linkedin.com/company/pomonaventures" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
-    Pomona Ventures
-  </a>
-</p>
+          <p className="text-sm">Instagram: <a href="https://instagram.com/pomonaventures" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">@pomonaventures
+  </a></p>
+    <p className ="text-sm">LinkedIn: <a href="https://www.linkedin.com/company/pomonaventures" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+    Pomona Ventures</a></p>
         </div>
       </div>
 
