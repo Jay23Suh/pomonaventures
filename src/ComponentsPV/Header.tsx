@@ -17,8 +17,28 @@ function Header() {
           {/* Desktop Navigation Links */}
           <nav className="hidden md:flex md:items-center md:space-x-8">
             <a href="/" className="text-white hover:text-cyan-200 font-medium">HOME</a>
-            <a href="/SageTank" className="text-white hover:text-cyan-200 font-medium">SAGETANK</a>
-            <a href="/initiatives" className="text-white hover:text-cyan-200 font-medium">INITIATIVES</a>
+  {/* INITIATIVES DROPDOWN */}
+  <div className="relative group">
+    <button className="text-white hover:text-cyan-200 font-medium">
+      INITIATIVES
+    </button>
+
+    {/* DROPDOWN MENU */}
+    <div className="absolute left-0 hidden group-hover:block bg-white text-black py-2 rounded-md shadow-lg w-40">
+      <a
+        href="/SageTank"
+        className="block px-4 py-2 hover:bg-gray-100"
+      >
+        SageTank
+      </a>
+      <a
+        href="/Sparkathon"
+        className="block px-4 py-2 hover:bg-gray-100"
+      >
+        Sparkathon
+      </a>
+    </div>
+  </div>
             <a href="/Aboutus" className="text-white hover:text-cyan-200 font-medium">ABOUT US</a>
             <a href="/contacts" className="text-white hover:text-cyan-200 font-medium">CONTACT US</a>
           </nav>

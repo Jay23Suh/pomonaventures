@@ -40,15 +40,15 @@ function Home() {
         </section>
 
           <div className="grid grid-cols-3 gap-4 p-6">
-  <div className="col-span-2 row-span-2">
-    <img src="/DSC00221.jpg" alt="big gif" className=" rounded-lg" />
-  </div>
-  <img src="/IMG_7550.JPG" alt="small 1" className="w-full h-auto rounded-lg" />
-  <img src="/IMG_7797.JPG" alt="small 2" className="w-full h-auto rounded-lg" />
-  <img src="/DSC00228.jpg" alt="small 3" className="w-full h-auto rounded-lg" />
-  <img src="/DSC00872.jpg" alt="small 3" className="w-full h-auto rounded-lg" />
-  <img src="/DSC00653.jpg" alt="small 3" className="w-full h-auto rounded-lg" />
-</div>
+            <div className="col-span-2 row-span-2">
+              <img src="/DSC00221.jpg" alt="big gif" className=" rounded-lg" />
+            </div>
+            <img src="/IMG_7550.JPG" alt="small 1" className="w-full h-auto rounded-lg" />
+            <img src="/IMG_7797.JPG" alt="small 2" className="w-full h-auto rounded-lg" />
+            <img src="/DSC00228.jpg" alt="small 3" className="w-full h-auto rounded-lg" />
+            <img src="/DSC00872.jpg" alt="small 3" className="w-full h-auto rounded-lg" />
+            <img src="/DSC00653.jpg" alt="small 3" className="w-full h-auto rounded-lg" />
+              </div>      
     </div>
   );
 }

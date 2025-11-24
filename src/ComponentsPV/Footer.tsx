@@ -10,13 +10,18 @@ const Footer: React.FC = () => {
           <h4 className="text-white font-semibold mb-4">Quick Links</h4>
           <ul className="space-y-2 text-sm">
             <li>
+              <a href="/initiatives" className="hover:text-white">
+                Initiatives
+              </a>
+            </li>
+            <li>
               <a href="/sagetank" className="hover:text-white">
                 SageTank
               </a>
             </li>
             <li>
-              <a href="/initiatives" className="hover:text-white">
-                Initiatives
+              <a href="/sparkathon" className="hover:text-white">
+                Sparkathon
               </a>
             </li>
             <li>

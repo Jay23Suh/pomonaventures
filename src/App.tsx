@@ -6,6 +6,7 @@ import SageTank from "./ComponentsPV/SageTank";
 import Contacts from "./ComponentsPV/contacts";
 import About from "./ComponentsPV/Aboutus";
 import Initiatives from "./ComponentsPV/Initiatives";
+import Sparkathon from "./ComponentsPV/Sparkathon";
 
 function App() {
   return (
@@ -16,10 +17,12 @@ function App() {
         <main className="flex-1 pt-20">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/sagetank" element={<SageTank />} />
+            
             <Route path="/contacts" element={<Contacts />} />
              <Route path="/Aboutus" element={<About />} />
             <Route path="/Initiatives" element={<Initiatives />} />
+            <Route path="/sagetank" element={<SageTank />} />
+            <Route path="/sparkathon" element={<Sparkathon />} />
           </Routes>
         </main>
 
