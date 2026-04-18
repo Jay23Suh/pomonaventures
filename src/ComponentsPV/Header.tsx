@@ -16,10 +16,10 @@ function Header() {
 
           {/* Desktop Navigation Links */}
           <nav className="hidden md:flex md:items-center md:space-x-8">
-            <a href="/" className="text-white hover:text-cyan-200 font-medium">HOME</a>
+            <a href="/" className="text-white hover:text-brand-orange transition-colors duration-200 font-medium">HOME</a>
   {/* INITIATIVES DROPDOWN */}
   <div className="relative group">
-    <button className="text-white hover:text-cyan-200 font-medium">
+    <button className="text-white hover:text-brand-orange transition-colors duration-200 font-medium">
       INITIATIVES
     </button>
 
@@ -39,15 +39,15 @@ function Header() {
       </a>
     </div>
   </div>
-            <a href="/Aboutus" className="text-white hover:text-cyan-200 font-medium">ABOUT US</a>
-            <a href="/contacts" className="text-white hover:text-cyan-200 font-medium">CONTACT US</a>
+            <a href="/Aboutus" className="text-white hover:text-brand-orange transition-colors duration-200 font-medium">ABOUT US</a>
+            <a href="/contacts" className="text-white hover:text-brand-orange transition-colors duration-200 font-medium">CONTACT US</a>
           </nav>
 
           {/* Mobile Menu Button */}
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-white hover:text-cyan-200 focus:outline-none"
+              className="text-white hover:text-brand-orange transition-colors duration-200 focus:outline-none"
               aria-label="Toggle menu"
             >
               <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -66,11 +66,11 @@ function Header() {
       {isMenuOpen && (
         <div className="md:hidden bg-black/80 backdrop-blur-sm rounded-lg mt-2">
           <nav className="flex flex-col items-center space-y-4 py-6">
-            <a href="/" className="text-white hover:text-cyan-200 text-lg">HOME</a>
-            <a href="/SageTank" className="text-white hover:text-cyan-200 text-lg">SAGETANK</a>
-            <a href="/initiatives" className="text-white hover:text-cyan-200 text-lg">INITIATIVES</a>
-            <a href="/Aboutus" className="text-white hover:text-cyan-200 text-lg">ABOUT US</a>
-            <a href="/contacts" className="text-white hover:text-cyan-200 text-lg">CONTACT US</a>
+            <a href="/" className="text-white hover:text-cyan-400 transition-colors duration-200 text-lg">HOME</a>
+            <a href="/SageTank" className="text-white hover:text-cyan-400 transition-colors duration-200 text-lg">SAGETANK</a>
+            <a href="/initiatives" className="text-white hover:text-cyan-400 transition-colors duration-200 text-lg">INITIATIVES</a>
+            <a href="/Aboutus" className="text-white hover:text-cyan-400 transition-colors duration-200 text-lg">ABOUT US</a>
+            <a href="/contacts" className="text-white hover:text-cyan-400 transition-colors duration-200 text-lg">CONTACT US</a>
           </nav>
         </div>
       )}

@@ -1,7 +1,47 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Work+Sans:wght@300;400;500;600;700&display=swap');
 
+:root {
+  --brand-blue-deep: #1E3A8A;
+  --brand-blue: #2563EB;
+  --brand-orange: #F97316;
+  --brand-orange-hover: #EA580C;
+}
 
 body {
-  font-family: 'Nata Sans', Avenir, Futura, Helvetica, Arial, sans-serif;
+  font-family: 'Work Sans', Avenir, Futura, Helvetica, Arial, sans-serif;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Outfit', sans-serif;
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.8s ease-out forwards;
+  }
+  
+  .animate-slide-up {
+    animation: slideUp 0.8s ease-out forwards;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.delay-100 { animation-delay: 0.1s; }
+.delay-200 { animation-delay: 0.2s; }
 
