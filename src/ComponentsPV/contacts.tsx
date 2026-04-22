@@ -1,4 +1,4 @@
-import { motion, useReducedMotion } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 const EASE = [0.25, 0.46, 0.45, 0.94] as const;
 
@@ -22,8 +22,6 @@ const InstagramIcon = () => (
 );
 
 export default function Contacts() {
-  const reduced = useReducedMotion();
-
   return (
     <div className="min-h-screen bg-brand-blue-deep text-white flex flex-col pt-24">
       <section className="flex-1 flex items-center justify-center text-center px-6 py-12 relative overflow-hidden">
