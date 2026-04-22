@@ -19,9 +19,9 @@ function Header() {
             <a href="/" className="text-white hover:text-brand-orange transition-colors duration-200 font-medium">HOME</a>
   {/* INITIATIVES DROPDOWN */}
   <div className="relative group">
-    <button className="text-white hover:text-brand-orange transition-colors duration-200 font-medium">
+    <a href="/Initiatives" className="text-white hover:text-brand-orange transition-colors duration-200 font-medium">
       INITIATIVES
-    </button>
+    </a>
 
     {/* DROPDOWN MENU */}
     <div className="absolute left-0 hidden group-hover:block bg-white text-black py-2 rounded-md shadow-lg w-40">
